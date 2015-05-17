@@ -5,10 +5,10 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		
-		<meta name="description" content="Examen 2 - Diseño web">
-		<meta name="author" content="J.Pablo Araya">
+		<meta name="description" content="Proyecto 1 - Diseño web">
+		<meta name="author" content="J.Pablo Araya, J.Fabio Arroyo">
 		
-		<title> Examen 1 Dise&ntildeo Web </title>
+		<title> Proyecto 1 Dise&ntildeo Web </title>
 		<link href= "styles/reset.css" rel="stylesheet" type= "text/css" />
 		<link rel="stylesheet" href="libs/bootstrap/css/bootstrap.min.css">
 		<link rel="stylesheet" href="styles/style.css">
@@ -24,26 +24,22 @@
 				<div class="container">
 					<nav class="navbar navbar-inverse headerA">
 						<div class="starter-template">
-							<h1>Costa Rica Land</h1>
+							<img src="Images/iconoCRL.png" alt="icono" class="iconoCRL">
 						</div>
-						
-						<div class="navbar-header">
-							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-								<span class="sr-only">Toggle navigation</span>
-								<span class="icon-bar"></span>
-								<span class="icon-bar"></span>
-								<span class="icon-bar"></span>
-							</button>
-						</div>
-						
-						<div id="navbar" class="collapse navbar-collapse">
+						<div class= "IngresoSistema">
 							<ul class="nav navbar-nav">
-								<li class="active"><a href="#tabHome" > HOME </a></li>
-								<li><a href="#tabAbout">ABOUT</a></li>
-								<li><a href="#tabAbout">COURSES</a></li>
-								<li><a href="#tabContact">CONTACT</a></li>
+								<li><a href="login.html">LOG IN</a></li>
+								<li><a href="signUp.html">SIGN UP</a></li>
 							</ul>
-						</div><!--/.nav-collapse -->		
+						</div>
+						<div class="RedesSociales">
+							<a href="#"> <img src="Images/iconoFacebook.png" class="iconoRedes"/></a>
+							<a href="#"> <img src="Images/iconTwitter.png" class="iconoRedes"/></a>
+							<a href="#"> <img src="Images/iconGoogle+.png" class="iconoRedes"/></a>
+						</div>
+						<div class= "mainHeader">
+							<h1 class="tituloPrincipal">Costa Rica Land</h1>
+						</div>
 					</nav>
 
 				<div class="container ">
@@ -63,33 +59,33 @@
 								  <!-- Wrapper for slides -->
 								  <div class="carousel-inner" role="listbox">
 									<div class="item active">
-									  <img src="Images/Image01.jpg" alt="surf0">
+									  <img src="Images/Image01.jpg" alt="nature1">
 									  <div class="carousel-caption">
 										...
 									  </div>
 									</div>
 									<div class="item">
-									  <img src="Images/Image02.jpg" alt="surf1">
+									  <img src="Images/Image02.jpg" alt="nature2">
 									  <div class="carousel-caption">
 									  </div>
 									</div>
 									<div class="item">
-									  <img src="Images/Image03.jpg" alt="surf2">
+									  <img src="Images/Image03.jpg" alt="nature3">
 									  <div class="carousel-caption">
 									  </div>
 									</div>
 									<div class="item">
-									  <img src="Images/Image04.jpg" alt="surf2">
+									  <img src="Images/Image04.jpg" alt="nature4">
 									  <div class="carousel-caption">
 									  </div>
 									</div>
 									<div class="item">
-									  <img src="Images/Image05.jpg" alt="surf2">
+									  <img src="Images/Image05.jpg" alt="nature5">
 									  <div class="carousel-caption">
 									  </div>
 									</div>
 									<div class="item">
-									  <img src="Images/Image06.jpg" alt="surf2">
+									  <img src="Images/Image06.jpg" alt="nature6">
 									  <div class="carousel-caption">
 									  </div>
 									</div>
@@ -107,7 +103,39 @@
 								</div>
 								 
 							</div><!-- /.container -->
-							
+							<div class="container">
+								<nav class="navbar navbar-inverse headerA">
+									<div class="navbar-header">
+										<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+											<span class="sr-only">Toggle navigation</span>
+											<span class="icon-bar"></span>
+											<span class="icon-bar"></span>
+											<span class="icon-bar"></span>
+											<span class="icon-bar"></span>
+											<span class="icon-bar"></span>
+											<span class="icon-bar"></span>
+										</button>
+									</div>
+								
+									<div id="navbar" class="collapse navbar-collapse">
+										<ul class="nav navbar-nav">
+											<!--<li class="active"><a href="#tabHome" > HOME </a></li>-->
+											<li><a href="#tabHome" > HOME </a></li>
+											<li><a href="#tabDestinations">DESTINATIONS</a></li>
+											<li><a href="#tabMaps">MAPS</a></li>
+											<li><a href="#tabVacations">VACATIONS</a></li>
+											<li><a href="#tabHotels">HOTELS</a></li>
+											<li><a href="#tabTours">TOURS & ACTIVITIES</a></li>
+											<li><a href="#tabAbout">ABOUT</a></li>
+										</ul>
+										<button> Buscar </button>
+										<input type="search" id="busqueda"><br>
+										
+									</div>
+								</nav>
+							</div>
+									
+															
 							<div class="container">
 								<div class="container col-md-6">
 									<h2> Main Section </h2>
@@ -154,71 +182,6 @@
 			
 			<div class="container">
 				<div class="jumbotron">
-					<div id="tabAbout">
-						<div class="inner cover">
-							<h4>About</h4>
-							<h2 class="cover-heading">Universidad Nacional de Costa Rica</h2>
-							<p class="lead">Jose Pablo Araya Pérez - Examen II Diseño Web </p>
-							<p class="lead">arayane2@hotmail.es </p>
-						</div>
-					</div>
-				</div>	
-			</div>
-			
-			<div class="container">
-				<div class="jumbotron">
-					<div id="tabCourses">
-						<div class="inner cover">
-							<h4>Courses</h4>
-							<table class="table table-striped">
-								  <thead>
-									<tr>
-									  <th>Num</th>
-									  <th>Name</th>
-									  <th>SRC</th>
-									  <th>Credits</th>
-									</tr>
-								  </thead>
-								  <tbody>
-									<tr>
-									  <th scope="row">1</th>
-									  <td>Science</td>
-									  <td>0012</td>
-									  <td>4</td>
-									</tr>
-									<tr>
-									  <th scope="row">2</th>
-									  <td>Mathematics</td>
-									  <td>0013</td>
-									  <td>5</td>
-									</tr>
-									<tr>
-									  <th scope="row">3</th>
-									  <td>Literature</td>
-									  <td>0014</td>
-									  <td>3</td>
-									</tr>
-									<tr>
-									  <th scope="row">4</th>
-									  <td>History</td>
-									  <td>0015</td>
-									  <td>3</td>
-									</tr>
-									<tr>
-									  <th scope="row">5</th>
-									  <td>Technology</td>
-									  <td>010101</td>
-									  <td>5</td>
-									</tr>
-								  </tbody>
-							</table>
-						</div>
-					</div>
-				</div>	
-			</div>
-			
-			<div class="container">
-				<div class="jumbotron">
 					<div id="tabContact">
 						<div class="inner cover">
 							<h4>Contact</h4>
@@ -260,12 +223,11 @@
 			<footer class="footer">
 				<div class="container">
 					<div id="navbar" class="collapse navbar-collapse">
-						<ul class="nav navbar-nav">
-							<li class="active"><a href="#tabHome" > HOME </a></li>
-							<li><a href="#tabAbout">ABOUT</a></li>
-							<li><a href="#tabCourses">COURSES</a></li>
-							<li><a href="#tabContact">CONTACT</a></li>
-							</ul>
+						<div class="RedesSociales">
+							<a href="#"> <img src="Images/iconoFacebook.png" class="iconoRedes"/></a>
+							<a href="#"> <img src="Images/iconTwitter.png" class="iconoRedes"/></a>
+							<a href="#"> <img src="Images/iconGoogle+.png" class="iconoRedes"/></a>
+						</div>
 						</div><!--/.nav-collapse -->		
 					<p class="text-muted"> Copyright @ 2015. Curso de Diseño Web </p>
 				</div>
