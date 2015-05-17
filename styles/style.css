@@ -1,3 +1,39 @@
 .headerA{
 	background : #006400;
 }
+
+.iconoCRL{
+	float: left;
+	width: 180px;
+	height: 95px;
+}
+
+#busqueda{
+	width: 140px;
+}
+.iconoRedes{
+	width: 30px;
+	height: 30px;
+
+}
+
+
+.IngresoSistema{
+	float: right;
+}
+
+
+.RedesSociales{
+	float: right;
+
+}
+
+.mainHeader{
+	float: right;
+	padding-right: 40px;
+}
+
+ .tituloPrincipal{
+	font-size: 4em;
+
+}
