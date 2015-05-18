@@ -1,13 +1,14 @@
 .headerA{
 	background : #006400;
 	border-radius: 25px;
-	border-color: none;
+	border-color: transparent;
+	height: 100px;
 }
 
 .iconoCRL{
 	float: left;
 	width: 180px;
-	height: 95px;
+	height: 90px;
 }
 
 #busqueda{
