@@ -36,8 +36,10 @@
 }
 .iconoCRL{
 	float: left;
-	width: 180px;
-	height: 95px;
+	width: 200px;
+	height: 96px;
+	padding-left: 1px;
+	border-radius: 26px;
 }
 
  .tituloPrincipal{
