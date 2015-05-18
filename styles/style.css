@@ -64,7 +64,15 @@
 
 .contentArticle{
 	width: 770px;
-	height: 500px;
+	height: 700px;
 	background: #2F4F4F;
 	border-radius: 25px;
+}
+
+.titleContent{
+	color: white;
+}
+
+.contentText{
+	color: white;
 }
