@@ -1,0 +1,84 @@
+$mainGreen: #006400;
+$articleGreen: #2F4F4F;
+
+.headerA{
+	background : $mainGreen;
+	border-radius: 25px;
+	border-color: transparent;
+	height: 100px;
+}
+
+.iconoCRL{
+ float: left;
+ width: 200px;
+ height: 96px;
+ padding-left: 1px;
+ border-radius: 26px;
+}
+
+#busqueda{
+	width: 140px;
+}
+.iconoRedes{
+	width: 30px;
+	height: 30px;
+
+}
+
+.IngresoSistema{
+	float: right;
+}
+
+
+.RedesSociales{
+	float: right;
+
+}
+
+.mainHeader{
+	float: right;
+	padding-right: 40px;
+}
+.iconoCRL{
+	float: left;
+	width: 180px;
+	height: 95px;
+}
+
+ .tituloPrincipal{
+	font-size: 4em;
+
+}
+
+.verticalFonts{
+	font-size: 1.5em;
+	color: gray;
+}
+
+.vertical-nav{
+	width: 220px;
+	height: 370px;
+	border-radius: 25px;
+}
+
+.vertical-li{
+	background-color: $mainGreen;
+	height: 50px;
+	width: 200px;
+	border-radius: 25px;
+}
+
+.contentArticle{
+	width: 770px;
+	height: 700px;
+	background: $articleGreen;
+	border-radius: 25px;
+}
+
+.titleContent{
+	color: white;
+}
+
+.contentText{
+	color: white;
+}

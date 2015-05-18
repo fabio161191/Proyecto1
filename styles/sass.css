@@ -1,6 +1,6 @@
 .headerA { background: #006400; border-radius: 25px; border-color: transparent; height: 100px; }
 
-.iconoCRL { float: left; width: 200px; height: 96px; padding-left: 1px; border-radius: 26px; }
+.iconoCRL { float: left; width: 180px; height: 90px; }
 
 #busqueda { width: 140px; }
 
@@ -28,4 +28,4 @@
 
 .contentText { color: white; }
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=sass.css.map */
