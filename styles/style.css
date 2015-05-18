@@ -4,11 +4,8 @@
 
 <<<<<<< HEAD
 =======
-.iconoCRL{
-	float: left;
-	width: 180px;
-	height: 95px;
-}
+
+
 
 #busqueda{
 	width: 140px;
@@ -33,6 +30,11 @@
 .mainHeader{
 	float: right;
 	padding-right: 40px;
+}
+.iconoCRL{
+	float: left;
+	width: 180px;
+	height: 95px;
 }
 
  .tituloPrincipal{
