@@ -1,9 +1,9 @@
 .headerA{
 	background : #006400;
+	border-radius: 25px;
+	border-color: none;
 }
 
-<<<<<<< HEAD
-=======
 .iconoCRL{
 	float: left;
 	width: 180px;
@@ -18,7 +18,6 @@
 	height: 30px;
 
 }
-
 
 .IngresoSistema{
 	float: right;
@@ -39,4 +38,28 @@
 	font-size: 4em;
 
 }
->>>>>>> ccc9fcc6990f5d3ab8e188e6d29ede825b590751
+
+.verticalFonts{
+	font-size: 1.5em;
+	color: gray;
+}
+
+.vertical-nav{
+	width: 220px;
+	height: 370px;
+	border-radius: 25px;
+}
+
+.vertical-li{
+	background-color: #006400;
+	height: 50px;
+	width: 200px;
+	border-radius: 25px;
+}
+
+.contentArticle{
+	width: 770px;
+	height: 500px;
+	background: #2F4F4F;
+	border-radius: 25px;
+}
