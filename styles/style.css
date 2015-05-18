@@ -6,26 +6,20 @@
 
 .iconoRedes { width: 30px; height: 30px; }
 
-.IngresoSistema { float: right; }
+.generalProperty, .IngresoSistema, .RedesSociales, .mainHeader { float: right; }
 
-.RedesSociales { float: right; }
-
-.mainHeader { float: right; padding-right: 40px; }
+.mainHeader { padding-right: 40px; }
 
 .iconoCRL { float: left; width: 180px; height: 95px; }
 
 .tituloPrincipal { font-size: 4em; }
 
-.verticalFonts { font-size: 1.5em; color: gray; }
-
 .vertical-nav { width: 220px; height: 370px; border-radius: 25px; }
-
-.vertical-li { background-color: #006400; height: 50px; width: 200px; border-radius: 25px; }
+.vertical-nav li { background-color: #006400; height: 50px; width: 200px; border-radius: 25px; }
+.vertical-nav li a { font-size: 1.5em; color: gray; }
 
 .contentArticle { width: 770px; height: 700px; background: #2F4F4F; border-radius: 25px; }
 
-.titleContent { color: white; }
-
-.contentText { color: white; }
+.customText { color: white; }
 
 /*# sourceMappingURL=style.css.map */
