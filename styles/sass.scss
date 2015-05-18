@@ -25,18 +25,22 @@ $articleGreen: #2F4F4F;
 
 }
 
-.IngresoSistema{
+.generalProperty{
 	float: right;
+}
+
+.IngresoSistema{
+	@extend .generalProperty;
 }
 
 
 .RedesSociales{
-	float: right;
+	@extend .generalProperty;
 
 }
 
 .mainHeader{
-	float: right;
+	@extend .generalProperty;
 	padding-right: 40px;
 }
 .iconoCRL{

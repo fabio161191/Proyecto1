@@ -6,11 +6,9 @@
 
 .iconoRedes { width: 30px; height: 30px; }
 
-.IngresoSistema { float: right; }
+.generalProperty, .IngresoSistema, .RedesSociales, .mainHeader { float: right; }
 
-.RedesSociales { float: right; }
-
-.mainHeader { float: right; padding-right: 40px; }
+.mainHeader { padding-right: 40px; }
 
 .iconoCRL { float: left; width: 180px; height: 95px; }
 
