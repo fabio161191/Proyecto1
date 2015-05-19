@@ -1,10 +1,22 @@
-.headerA { background: #006400; border-radius: 25px; border-color: transparent; height: 100px; }
+.wContent { width: 1250px; }
 
-.iconoCRL { float: left; width: 200px; height: 96px; padding-left: 1px; border-radius: 26px; }
+.main { background: #7b9f35; }
+
+.headerA, .middleNav { background: #407f7f; border-radius: 20px; border-color: transparent; }
+
+.middleNav { background: #407f7f; }
+
+.middleTabs { color: white; }
+
+.iconoCRL { float: left; width: 200px; height: 96px; padding-left: 1px; border-radius: 20px; }
 
 #busqueda { width: 140px; }
 
 .iconoRedes { width: 30px; height: 30px; }
+
+.carouselCustom { padding-bottom: 10px; }
+
+.middleBar { margin-top: 20px; }
 
 .generalProperty, .IngresoSistema, .RedesSociales, .mainHeader { float: right; }
 
@@ -15,10 +27,10 @@
 .tituloPrincipal { font-size: 4em; }
 
 .vertical-nav { width: 220px; height: 370px; border-radius: 25px; }
-.vertical-nav li { background-color: #006400; height: 50px; width: 200px; border-radius: 25px; }
-.vertical-nav li a { font-size: 1.5em; color: gray; }
+.vertical-nav li { background-color: #116611; height: 50px; width: 200px; border-radius: 20px; }
+.vertical-nav li a { font-size: 1.5em; color: white; }
 
-.contentArticle { width: 770px; height: 700px; background: #2F4F4F; border-radius: 25px; }
+.contentArticle { width: 770px; height: 700px; background: #116611; border-radius: 20px; }
 
 .customText { color: white; }
 

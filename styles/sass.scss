@@ -1,11 +1,27 @@
-$mainGreen: #006400;
-$articleGreen: #2F4F4F;
+$mainGreen: #116611;
+
+
+.wContent{
+	width: 1250px;
+}
+
+.main{
+	background: #7b9f35;
+}
 
 .headerA{
-	background : $mainGreen;
-	border-radius: 25px;
+	background : #407f7f;
+	border-radius: 20px;
 	border-color: transparent;
-	height: 100px;
+}
+
+.middleNav{
+	@extend .headerA;
+	background: #407f7f;
+}
+
+.middleTabs{
+	color: white;
 }
 
 .iconoCRL{
@@ -13,7 +29,7 @@ $articleGreen: #2F4F4F;
  width: 200px;
  height: 96px;
  padding-left: 1px;
- border-radius: 26px;
+ border-radius: 20px;
 }
 
 #busqueda{
@@ -23,6 +39,15 @@ $articleGreen: #2F4F4F;
 	width: 30px;
 	height: 30px;
 
+}
+
+.carouselCustom{
+	padding-bottom: 10px;
+}
+
+.middleBar{
+	margin-top: 20px;
+	
 }
 
 .generalProperty{
@@ -62,10 +87,10 @@ $articleGreen: #2F4F4F;
 		background-color: $mainGreen;
 		height: 50px;
 		width: 200px;
-		border-radius: 25px;
+		border-radius: 20px;
 		a{
 			font-size: 1.5em;
-			color: gray;
+			color: white;
 		}
 	}
 }
@@ -73,8 +98,8 @@ $articleGreen: #2F4F4F;
 .contentArticle{
 	width: 770px;
 	height: 700px;
-	background: $articleGreen;
-	border-radius: 25px;
+	background: $mainGreen;
+	border-radius: 20px;
 }
 
 .customText{
